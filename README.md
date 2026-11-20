@@ -52,7 +52,7 @@ warisan-budaya-melayu/
 ```
 
 ## Cara Menjalankan
-1. Clone repo: `git clone https://github.com/USERNAME/warisan-budaya-melayu.git`
+1. Clone repo: `git clone https://github.com/naufalabdurrafi/warisan-budaya-melayu.git`
 2. Buka folder proyek.
 3. Buka `index.html` di browser (atau gunakan ekstensi Live Server di VS Code).
 
