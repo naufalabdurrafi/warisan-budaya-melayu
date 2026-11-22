@@ -24,7 +24,7 @@ Website ini bertujuan memperkenalkan dan melestarikan warisan budaya Melayu Kepu
 | 4 | Bagas Argasaputra | 2501020036 | Sejarah dan tokoh | Analis kebutuhan dan survei |
 | 5 | Mohammad Alfin Faris Adz Dzikkri | 2501020032 | Tempat bersejarah | Penguji |
 | 6 | Gina Mulandari | 2501020039 | Seni pertunjukan | Desainer Figma |
-| 7 | ⁠Thara De Seniamarcahanda | 2501020037 | Kuis dan form saran | Analis kebutuhan dan survei |
+| 7 | Thara De Seniamarcahanda | 2501020037 | Kuis dan form saran | Analis kebutuhan dan survei |
 
 Dosen pengampu: Berta Erwin SLAM, S.T., M.Kom. dan Rifaldi Herikson, M.Kom.
 
