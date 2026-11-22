@@ -1,53 +1,73 @@
 # Warisan Budaya Melayu Kepulauan Riau
 
-Website pengenalan budaya Melayu Kepulauan Riau untuk pelajar, mahasiswa, dan wisatawan.
+Website pengenalan budaya Melayu Kepulauan Riau untuk generasi muda, pelajar, mahasiswa, dan wisatawan.
 Proyek akhir mata kuliah Perancangan Web (INF11115), Teknik Informatika,
 Universitas Maritim Raja Ali Haji, 2026.
 
 🔗 **Live preview:** (isi setelah deploy GitHub Pages)
 
 ## Tujuan
-(Diisi ketika kumpul)
+Memperkenalkan, mendokumentasikan, dan melestarikan warisan budaya Melayu Kepulauan Riau
+secara digital sebagai media edukasi dan referensi bagi masyarakat luas, khususnya generasi Z,
+mahasiswa, dan wisatawan, agar identitas budaya daerah mudah diakses dan tetap dikenal generasi baru.
+
+## Pengguna
+- Generasi Z, pelajar, mahasiswa, dan peneliti
+- Wisatawan lokal dan mancanegara
+- Masyarakat umum dan perantau
 
 ## Tim
 
-| No | Nama | NIM | Peran | Halaman yang dikerjakan |
-|----|------|-----|-------|-------------------------|
-| 1  |      |     |       |                         |
-| 2  |      |     |       |                         |
-| 3  |      |     |       |                         |
-| 4  |      |     |       |                         |
-| 5  |      |     |       |                         |
-| 6  |      |     |       |                         |
-| 7  |      |     |       |                         |
+| No | Nama | NIM | Halaman koding | Tugas tambahan |
+|----|------|-----|----------------|----------------|
+| 1 | M. Naufal Abdurrafi | 2501020014 | Beranda dan fondasi kode | Koordinator, penyunting laporan |
+| 2 | Akhdan Dana Diaksa | 2501020048 | Kuliner | Desainer Figma, slide presentasi |
+| 3 | Fery Febrian | 2501020049 | Bahasa dan pantun | Penguji |
+| 4 | Bagas Argasaputra | 2501020036 | Sejarah dan tokoh | Analis kebutuhan dan survei |
+| 5 | Mohammad Alfin Faris Adz Dzikkri | 2501020032 | Tempat bersejarah | Penguji |
+| 6 | Gina Mulandari | 2501020039 | Seni pertunjukan | Desainer Figma |
+| 7 | ⁠Thara De Seniamarcahanda | 2501020037 | Kuis dan form saran | Analis kebutuhan dan survei |
 
 Dosen pengampu: Berta Erwin SLAM, S.T., M.Kom. dan Rifaldi Herikson, M.Kom.
 
-## Fitur 
-(Fitur dapat berubah setelah kumpul tim)
-- [ ] Navigasi responsif (desktop dan mobile)
-- [ ] Halaman kategori budaya
-- [ ] Filter kategori
-- [ ] Kuis budaya
-- [ ] Form saran dengan validasi
+## Fitur
+Daftar fitur dapat berubah setelah hasil survei dan analisis kebutuhan.
 
-(Centang saat fitur selesai, ubah daftar sesuai hasil analisis kebutuhan.)
+- [ ] Navigasi responsif dengan menu hamburger (Beranda)
+- [ ] Halaman kategori budaya (6 halaman)
+- [ ] Popup foto pada galeri (Kuliner)
+- [ ] Pantun acak (Bahasa dan pantun)
+- [ ] Accordion atau "baca selengkapnya" (Sejarah dan tokoh)
+- [ ] Pencarian atau urutan daftar (Tempat bersejarah)
+- [ ] Filter kategori (Seni pertunjukan)
+- [ ] Kuis berskor (Kuis)
+- [ ] Form saran dengan validasi (Kuis dan form saran)
+
+Centang saat fitur selesai.
 
 ## Teknologi
-HTML, CSS, dan JavaScript murni. Desain di Figma. Dikelola dengan Git dan GitHub. 
+HTML, CSS, dan JavaScript murni. Desain di Figma. Dikelola dengan Git dan GitHub.
 
 ## Struktur File
 ```
 warisan-budaya-melayu/
-├── index.html          # halaman beranda
-├── html/               # halaman lainnya
+├── index.html              # beranda
+├── html/                   # halaman lainnya
+│   ├── kuliner.html
+│   ├── bahasa-pantun.html
+│   ├── sejarah-tokoh.html
+│   ├── tempat-bersejarah.html
+│   ├── seni-pertunjukan.html
+│   └── kuis.html
 ├── css/
-│   └── style.css       # stylesheet utama
+│   ├── style.css           # gaya global (variabel warna, navbar, footer)
+│   └── kuliner.css, ...    # satu file CSS per halaman
 ├── js/
-│   └── script.js       # script utama
+│   ├── script.js           # fungsi global (menu hamburger)
+│   └── kuliner.js, ...     # satu file JS per halaman
 ├── assets/
-│   └── images/         # foto dan gambar
-├── docs/               # dokumen analisis kebutuhan, sitemap, wireframe
+│   └── images/             # foto dan gambar
+├── docs/                   # analisis kebutuhan, jadwal, kesepakatan, kontribusi
 └── README.md
 ```
 
@@ -61,12 +81,19 @@ Tidak perlu instalasi tambahan karena proyek ini tidak memakai framework atau li
 ## Aturan Pengembangan
 - Penamaan file dan class memakai kebab-case, variabel JavaScript memakai camelCase.
 - Tanpa inline style dan inline script.
-- Satu halaman HTML dikerjakan satu orang.
+- Setiap halaman memuat `style.css` (global) lalu CSS halamannya sendiri. Contoh di `html/kuliner.html`:
+  ```html
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/kuliner.css">
+  <script src="../js/script.js" defer></script>
+  <script src="../js/kuliner.js" defer></script>
+  ```
+- Satu halaman HTML dikerjakan satu orang. Perubahan di navbar, footer, atau CSS global diminta lewat Issue ke koordinator.
 - Commit dengan awalan `feat:`, `fix:`, `style:`, `docs:`, atau `content:`.
-- Kerja di branch masing-masing, lalu gabungkan lewat pull request.
+- Kerja di branch masing-masing, lalu gabungkan lewat pull request yang ditinjau koordinator.
 
 ## Sumber Konten
-Daftar sumber teks dan foto (isi bertahap oleh tim riset konten).
+Daftar sumber teks dan foto (diisi bertahap oleh tiap anggota untuk halamannya).
 
 ## Dokumen Perancangan
 - [Analisis kebutuhan](docs/analisis-kebutuhan.md)
