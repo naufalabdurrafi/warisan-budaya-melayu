@@ -7,9 +7,7 @@ Universitas Maritim Raja Ali Haji, 2026.
 🔗 **Live preview:** (isi setelah deploy GitHub Pages)
 
 ## Tujuan
-Memperkenalkan, mendokumentasikan, dan melestarikan warisan budaya Melayu Kepulauan Riau
-secara digital sebagai media edukasi dan referensi bagi masyarakat luas, khususnya generasi Z,
-mahasiswa, dan wisatawan, agar identitas budaya daerah mudah diakses dan tetap dikenal generasi baru.
+Website ini bertujuan memperkenalkan dan melestarikan warisan budaya Melayu Kepulauan Riau, mencakup sejarah dan tokoh, tempat bersejarah, seni pertunjukan, kuliner, serta bahasa dan pantun, sebagai media edukasi bagi generasi muda, mahasiswa, dan wisatawan.
 
 ## Pengguna
 - Generasi Z, pelajar, mahasiswa, dan peneliti
