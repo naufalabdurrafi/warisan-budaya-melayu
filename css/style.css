@@ -1,1 +1,104 @@
 /* style utama untuk website Warisan Budaya Melayu */
+
+/* style.css : gaya global (dipakai semua halaman) */
+
+/* Warna utama. Ganti di sini kalau desain sudah final. */
+:root {
+  --warna-utama: #1f4d3a;
+  --warna-aksen: #e8b923;
+  --warna-teks: #222222;
+  --warna-latar: #fbfaf6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--warna-teks);
+  background-color: var(--warna-latar);
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header dan menu */
+header {
+  background-color: var(--warna-utama);
+  padding: 10px 20px;
+  border-bottom: 4px solid var(--warna-aksen);
+}
+
+.logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+nav a:hover {
+  color: var(--warna-aksen);
+}
+
+/* Di HP: menu disembunyikan, tampil saat tombol diklik */
+nav {
+  display: none;
+}
+
+nav.terbuka {
+  display: block;
+}
+
+#tombol-menu {
+  float: right;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+/* Di layar lebar: menu tampil mendatar, tombol disembunyikan */
+@media (min-width: 800px) {
+  #tombol-menu {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav {
+    display: block;
+  }
+
+  nav a {
+    display: inline-block;
+    margin-left: 15px;
+  }
+}
+
+/* Footer */
+footer {
+  background-color: var(--warna-utama);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
