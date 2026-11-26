@@ -96,4 +96,4 @@ Daftar sumber teks dan foto (diisi bertahap oleh tiap anggota untuk halamannya).
 ## Dokumen Perancangan
 - [Analisis kebutuhan](docs/analisis-kebutuhan.md)
 - [Kontribusi tim](docs/kontribusi.md)
-- [Sitemap dan wireframe] ([tambahkan tautan Figma](https://www.figma.com/design/KQbnFEPJpNIjmKpY6u2cTF/Web-Warisan-Budaya-KEPRI?node-id=0-1&t=nQxGjCYnHrFdNzQG-1))
+- [Sitemap dan wireframe](https://www.figma.com/design/KQbnFEPJpNIjmKpY6u2cTF/Web-Warisan-Budaya-KEPRI?node-id=0-1&t=nQxGjCYnHrFdNzQG-1)
