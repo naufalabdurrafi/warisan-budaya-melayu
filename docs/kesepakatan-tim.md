@@ -2,14 +2,14 @@
 
 ## Penyimpanan
 
-| Jenis file | Disimpan di |
-|------------|-------------|
-| Kode (HTML, CSS, JS) | GitHub |
+| Jenis file                      | Disimpan di                    |
+| ------------------------------- | ------------------------------ |
+| Kode (HTML, CSS, JS)            | GitHub                         |
 | Foto final yang dipakai website | GitHub, folder `assets/images` |
-| Foto mentah dan bahan riset | Google Drive |
-| Laporan Word dan slide | Google Drive |
-| Sitemap dan wireframe | Figma, ekspor PDF ke Drive |
-| Daftar bug | GitHub Issues |
+| Foto mentah dan bahan riset     | Google Drive                   |
+| Laporan Word dan slide          | Google Drive                   |
+| Sitemap dan wireframe           | Figma, ekspor PDF ke Drive     |
+| Daftar bug                      | GitHub Issues                  |
 
 ## Aturan GitHub
 
